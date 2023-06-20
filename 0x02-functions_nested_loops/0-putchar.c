@@ -2,6 +2,7 @@
 
 	/**
 	 * main - print _putchar
+	 * Description: 'adding prototype'
 	 * Return: 0
 	 */
 

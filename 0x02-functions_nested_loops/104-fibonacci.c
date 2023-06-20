@@ -1,16 +1,15 @@
 #include <stdio.h>
 
 
-	/**
-	 * main - finds and prints the first 98 Fibonacci numbers
-	 * before and aft 1000000000
-	 *
-	 * Return: Nothing!
-	 */
+/**
+* main - finds and prints the first 98 Fibonacci numbers
+* before and aft 1000000000
+*
+* Return: Nothing!
+*/
 
-
-	int main(void)
-	{
+int main(void)
+{
 		unsigned long int i;
 		unsigned long int bef = 1;
 		unsigned long int aft = 2;
@@ -49,4 +48,4 @@
 		}
 		printf("\n");
 		return (0);
-	}
+}

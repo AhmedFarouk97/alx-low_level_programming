@@ -9,7 +9,7 @@
 
 	void print_alphabet(void)
 	{
-		// char letter;
+		
 		char letter;
 
 

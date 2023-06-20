@@ -7,10 +7,10 @@
 	{
 
 	char c[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	for (int i = 0, i < 26 , i++)
-	{
+	for ( i = 0, i =< 26 , i++)
   	_putchar(c[i]);
-	}
+
 	_putchar('\n');
 	}

@@ -8,9 +8,9 @@
 
 	char c[26] = "abcdefghijklmnopqrstuvwxyz";
 
-	for (i = 0, i < 26 , i++)
+	for (int i = 0, i < 26 , i++)
 	{
-  	putchar(c[i]);
+  	_putchar(c[i]);
 	}
-	putchar('\n');
+	_putchar('\n');
 	}

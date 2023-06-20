@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 
 	/**
@@ -8,12 +8,12 @@
 
 	void print_alphabet(void)
 	{
+		char letter;
 
-	char c[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
 
-	for ( i = 0, i <= 26 , i++)
-	  	_putchar(c[i]);
+		for (letter = 'a'; letter <= 'z'; letter++)
+			_putchar(letter);
 
-	_putchar('\n');
+
+		_putchar('\n');
 	}

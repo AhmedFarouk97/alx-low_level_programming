@@ -2,10 +2,10 @@ include <stdlib.h>
 #include "lists.h"
 
 /**
-  * sum_listint - ...
-  * @head: ...
+  * sum_listint - the sum of list of head
+  * @head: if equel text
   *
-  * Return: ...
+  * Return: amount
   */
 int sum_listint(listint_t *head)
 {
